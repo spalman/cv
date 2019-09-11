@@ -3,42 +3,44 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Stanislav Bondarenko
+    tagline: Data Scientist & Machine Learning Engineer
+    avatar: photo.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    city: Odesa, Ukraine
+    email: stanislav.bondarenko23@gmail.com
+    skype: bond.stanislav
+    website:  #do not add http://
+    linkedin: bondares
+    github: spalman
+    kaggle: bondares
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Upper Intermediate
+
+      - idiom: Russian
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Ukrainian
+        level: Native
 
     interests:
-      - item: Climbing
+      - item: Sport
         link:
 
-      - item: Snowboarding
+      - item: Traveling
         link:
 
       - item: Cooking
@@ -47,153 +49,110 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Data scientist with 1 year of experience in data science and machine learning. 
+      Currently working as a freelancer and trying my best in Kaggle competitions. 
+      Mostly solving regression, classification and NLP tasks, but always looking for opportunities to work with something new. 
+      Looking for interesting and challenging projects, professional growth  and friendly working environment.
+      
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in  Applied Mathematics
+      university: Odesa National I.I. Mechnikov University
+      time: 2017-2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Learnt lots of key skills such as team work and project management. Studied advanced methods of differential and integral calculus,
+        signal procissung and time series analisys.
 
-          - Bullet point
-          - Bullet point
+    - degree: Mobility
+      university: Aston University
+      time: Oct 2017-Jul 2018
+      details: |
+        Took part in Erasmus+ mobility program at Aston University, UK. 
+        Worked in an international research group and have been researching  mechanical properties of biological 
+        viruses using mathematical modelling. 
+        
+        During mobility I also worked for 2 months as computer technician at University on part-time basis. 
+        My responsibilities were collecting and processing statistics from local HPC clusters.
 
     - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+      university: Odesa National I.I. Mechnikov University
+      time: 2013-2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        During my degree at ONU I studied courses such as linear algebra, probability theory, mathematical statistics, 
+        optimization methods and mathematical physics.  Also, we were focused on software development and the principles of programming.
 
-          - Bullet point
-          - Bullet point
+        Studied fuzzy neural networks for diploma project.
+      
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Data Science/Machine Learning
+      time: 2018 - Present
+      company: Freelance
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Working on small projects such as data cleaning and data visualisation, 
+        as well as deep learning projects such as deep learning based recommender system. 
+        The main tools are <mark>PyTorch</mark>, <mark>Jupyter</mark>, <mark>numpy</mark>, <mark>pandas</mark>, <mark>nltk</mark>, 
+        <mark>sklearn</mark>, <mark>plotly</mark>, <mark>matplotlib</mark>.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Tastemap
+        link: "https://www.tastemap.com"
+        tagline: "<mark>Deep learning wine recommender.</mark> For this project I've made a rating prediction model based on user and wine features and previous views and ratings. 
+        The model was made using <mark>PyTorch</mark> and <mark>Flask</mark> API has been built as well."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Customer Transaction Prediction
+        link: "https://github.com/spalman/Customer-Transaction-Prediction"
+        tagline: "EDA and ML model for <mark>Santander Customer Transaction Prediction</mark> Kaggle competition. The challenge is to identify which customers will make a specific transaction in the future, 
+        irrespective of the amount of money transacted. The data provided for this competition 
+        has the same structure as the real data."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Pokemon Generator
+        link: "https://github.com/spalman/dcgan"
+        tagline: "Applying <mark>DCGAN</mark> to generate new pokemon images. Small project which consist of <mark>Jupyter</mark> notebook for 
+        image preprocessing and <mark>PyTorch</mark> Deep Convolutional GAN."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Detecting toxic questions 
+        link: "https://github.com/spalman/Quora-text-classification"
+        tagline: "Kernel for <mark>Quora Insincere Questions Classification</mark> Kaggle competition. The problem itself is a binary classification of questions, whether it's sincere or not.  
+        Model architecture is a Binary LSTM with an attention layer and an additional fully connected layer. Also using CLR and a capsule Layer. 
+        The model mainly made using <mark>PyTorch</mark> and <mark>sklearn</mark>."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python (numpy, pandas)
+        level: 90%
+      
+      - name: Data Visualization (matplotlib, plotly)
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Statistics 
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: PyTorch
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: TensorFlow
+        level: 80%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Flask
+        level: 80%
 
-      - name: Sketch & Photoshop
+      - name: SQL
+        level: 75%
+
+      - name: git
+        level: 75%
+      
+      - name: docker
         level: 60%
 
 footer: >
